@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Maxwell Sandager, Front-End Ninja</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<header>
+		<div class="header_container flex">
+			<div class="udacity_logo_container">
+				<img 
+					src="https://cdn.worldvectorlogo.com/logos/udacity.svg"
+					class="logo"
+					alt="Udacity logo">
+			</div>
+			<div class="header_whitespace">
+			</div>
+			<div class="header_text">
+			</div>
+		</div>
+	</header>
+
+	<hr>
+
+	<main class="main_container flex">
+		<div class="main_img">
+		</div>
+
+		<section class="featured_work_container">
+			<div class="featured_work_title">
+				Featured Work
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>
