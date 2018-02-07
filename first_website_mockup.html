@@ -7,101 +7,101 @@
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<header>
-		<!--Header flex row with logo, spacer and name-->
-		<div class="flex row"> 
-			<div class="logo">
-				<img
-					src="https://cdn.worldvectorlogo.com/logos/udacity.svg"
-					alt="Udacity logo"
-					class="logo_img"
-				>
-			</div>
-<!-- 			<div class="header_spacer">
-			</div> -->
-			<div class="name flex column">
-				<div class="words flex max"><h1>MAXWELL SANDAGER</h1></div>
-				<div class="words flex ninja"><h3>FRONT-END NINJA</h3></div>
-			</div>
-		</div>
-	</header>
-
-	<hr>
-
-	<main>
-		<div class="flex column">
-			<div class="flex main_img_container">
-				<img 
-					src="https://longren.io/wp-content/uploads/2014/03/HTML.jpg"
-					alt="Silly HTML Image"
-					class="main_img"
-				>
-			</div>
-
-			<section>  <!--Featured work section-->
-				<div class="flex featured_work_title">
-					<h3>Featured Work</h3>
+	<div class="site_wrapper">
+		<header>
+			<!--Header flex row with logo and name-->
+			<div class="flex row"> 
+				<div class="logo">
+					<img
+						src="https://cdn.worldvectorlogo.com/logos/udacity.svg"
+						alt="Udacity logo"
+						class="logo_img"
+					>
 				</div>
-				<div class="flex row featured_work_row">
-					<div class="flex appify_container">
-						<figure>
-							<a href="https://prather-mcs.github.io/udacity-work/p1/img/appify.jpg">
-								<img
-									src="https://prather-mcs.github.io/udacity-work/p1/img/appify.jpg"
-									alt="Appify"
-								>
-							</a>
-							<figcaption>
-								<div class="undertext">
-									APPIFY
-								</div>
-								<div class="undertext_link"> 
-									github.com/AppifyLies
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="flex sunflower_container">
-						<figure>
-							<a href="http://demandware.edgesuite.net/sits_pod32/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dw74b7ad04/images/products/flowers/01314_01_sunrichorange.jpg?sw=1120"
-							>
-								<img 
-									src="http://demandware.edgesuite.net/sits_pod32/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dw74b7ad04/images/products/flowers/01314_01_sunrichorange.jpg?sw=1120"
-									alt="Sunflower"
-								>
-							</a>
-							<figcaption>
-								<div class="undertext">
-									SUNFLOWER
-								</div>
-								<div class="undertext_link">
-									github.com/SunflowerLies
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="flex bokeh_container">
-						<figure>
-							<a href="http://www.publicdomainpictures.net/pictures/170000/velka/bokeh-background-1463395170uoa.jpg"
-							>
-								<img 
-									src="http://www.publicdomainpictures.net/pictures/170000/velka/bokeh-background-1463395170uoa.jpg" 
-									alt="Bokeh"
-								>
-							</a>
-							<figcaption>
-								<div class="undertext">
-									BOKEH
-								</div>
-								<div class="undertext_link">
-									github.com/BokehLies
-								</div>
-							</figcaption>
-						</figure>
-					</div>
+				<div class="name">
+					<div><h1 class="max">MAXWELL SANDAGER</h1></div>
+					<div><h3 class="max">FRONT-END NINJA</h3></div>
 				</div>
-			</section>
-		</div>
-	</main>
+			</div>
+		</header>
+
+		<hr>
+
+		<main>
+			<div class="flex column">
+				<div class="main_img_container">
+					<img 
+						src="images/html.jpg"
+						alt="Silly HTML Image"
+						class="main_img"
+					>
+				</div>
+
+				<section>  <!--Featured work section-->
+					<div class="featured_work_title">
+						<h2 class="featured_work">Featured Work</h2>
+					</div>
+					<div class="flex row featured_work_row">
+						<div class="appify_container featured_figure_container">
+							<figure>
+								<a href="https://prather-mcs.github.io/udacity-work/p1/img/appify.jpg">
+									<img
+										src="https://prather-mcs.github.io/udacity-work/p1/img/appify.jpg"
+										alt="Appify"
+									>
+								</a>
+								<figcaption>
+									<div class="undertext">
+										APPIFY
+									</div>
+									<div class="undertext_link"> 
+										github.com/AppifyLies
+									</div>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="sunflower_container featured_figure_container">
+							<figure>
+								<a href="http://demandware.edgesuite.net/sits_pod32/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dw74b7ad04/images/products/flowers/01314_01_sunrichorange.jpg?sw=1120"
+								>
+									<img 
+										src="http://demandware.edgesuite.net/sits_pod32/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dw74b7ad04/images/products/flowers/01314_01_sunrichorange.jpg?sw=1120"
+										alt="Sunflower"
+									>
+								</a>
+								<figcaption>
+									<div class="undertext">
+										SUNFLOWER
+									</div>
+									<div class="undertext_link">
+										github.com/SunflowerLies
+									</div>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="bokeh_container featured_figure_container">
+							<figure>
+								<a href="http://www.publicdomainpictures.net/pictures/170000/velka/bokeh-background-1463395170uoa.jpg"
+								>
+									<img 
+										src="http://www.publicdomainpictures.net/pictures/170000/velka/bokeh-background-1463395170uoa.jpg" 
+										alt="Bokeh"
+									>
+								</a>
+								<figcaption>
+									<div class="undertext">
+										BOKEH
+									</div>
+									<div class="undertext_link">
+										github.com/BokehLies
+									</div>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+	</div>
 </body>
 </html>
