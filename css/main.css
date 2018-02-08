@@ -119,6 +119,21 @@ figure {
 	font-weight: normal;
 }
 
+.about_me_title {
+	color: #7d97ad;
+	font-family: Verdana;
+	font-size: 2em;
+	margin-bottom: 0.3em;
+	font-weight: normal;
+	padding-left: 0.2em;
+}
+
+.about_me_text {
+	font-family: Helvetica;
+	margin-left: 0.5em;
+}
+
+
 
 /*Responsive Design Section*/
 
@@ -151,6 +166,12 @@ figure {
 
 @media screen and (min-width: 500px) and (max-width: 749px) {
 	.undertext {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.about_me_text {
 		font-size: 18px;
 	}
 }
