@@ -93,16 +93,8 @@ figure {
 	margin: 0;
 }
 
-.appify_container {
-	width: 32%;
-}
-
-.sunflower_container {
-	width: 32%;
-}
-
-.bokeh_container {
-	width: 32%;
+.featured_figure_container {
+	width: 32%
 }
 
 .undertext {
