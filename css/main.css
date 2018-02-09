@@ -9,8 +9,7 @@ body {
 
 .site_wrapper {
 	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 .flex {
@@ -63,7 +62,6 @@ hr {
 }
 
 .main_img {
-/*	height: 30em;*/
 	width: 100%;
 }
 
@@ -81,11 +79,10 @@ hr {
 
 .featured_work_row {
 	width: 100%;
-	justify-content: space-around;
 	justify-content: space-between;
 }
 
-figure img {
+ .project_fig img {
 	width: 100%;
 }
 
@@ -121,7 +118,7 @@ figure {
 }
 
 .about_me_text {
-	font-family: Helvetica;
+	font-family: Helvetica, serif, monospace;
 	margin-left: 0.5em;
 }
 
